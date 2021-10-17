@@ -1,0 +1,60 @@
+<html>
+	<head>
+    <title>log in </title>
+  </head>
+  <style>
+  h1{
+	  text-align: center;
+  }
+    h2 {
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  
+  border: 10px black;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  background: Wheat;
+  background-clip: padding-box;
+}
+
+ 
+
+  
+  
+  </style>
+	<body>
+	
+		
+<h3><i>WELCOME TO EDUCARE</i></h3>
+Log in to your Accout<br>
+		<h2><form action="" method="post">
+			<table>
+				<tr>
+					<img src="login.jpg" width="300" height="150">
+					<td><input type="email" placeholder="Uname" name="id"></td>
+
+				</tr>
+				<tr>
+					<td><input type="password" placeholder="Password" name="pass"value="{{old('name')}}" class="form-control"></td>
+				</tr>
+
+				<tr>
+					<td colspan="2"><input type="submit" value="Log in"></td>
+				</tr>
+				
+     <tr><td> <input type="checkbox" checked="checked" name="remember"> Remember me</td></tr>
+
+			</table>
+
+
+		</form></h2>
+		<?php
+
+
+
+?>
+	</body>
+</html>
